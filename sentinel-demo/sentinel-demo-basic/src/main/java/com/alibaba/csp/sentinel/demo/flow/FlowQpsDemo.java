@@ -53,6 +53,7 @@ public class FlowQpsDemo {
         // first make the system run on a very low condition
         simulateTraffic();
 
+        System.out.println("merge联系");
         System.out.println("===== begin to do flow control");
         System.out.println("only 20 requests per second can pass");
 
